@@ -1,324 +1,325 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pack Base – Fundamentos Laborales | JoanaJob</title>
-<meta name="description" content="Pack Base de consultoria laboral.">
-<link rel="canonical" href="https://www.joanajob.com/es/productos/fundamentos-laborales/">
-<link rel="alternate" hreflang="x-default" href="https://www.joanajob.com/es/">
-<link rel="alternate" hreflang="es" href="https://www.joanajob.com/es/">
-<link rel="alternate" hreflang="ca" href="https://www.joanajob.com/ca/">
-<link rel="alternate" hreflang="en" href="https://www.joanajob.com/en/">
-<link rel="icon" href="https://docs.gestionaweb.cat/7517/logo2.ico" type="image/x-icon">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;scroll-padding-top:76px}
-body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased;color:#1A1A1A;background:#fff;line-height:1.6}
-img{max-width:100%;height:auto;display:block}
-a{color:#23876B;text-decoration:none;transition:color .2s}
-a:hover{color:#145A47}
-ul{list-style:none}
-.skip-link{position:absolute;top:-100%;left:0;z-index:9999;background:#23876B;color:#fff;padding:12px 24px;font-weight:600;transition:top .2s}
-.skip-link:focus{top:0}
-.container{max-width:1200px;margin:0 auto;padding:0 24px}
-.section{padding:88px 0}
-.section-alt{background:linear-gradient(180deg,#F8F6F3 0%,#F2EFEA 100%);padding:88px 0}
-.section-dark{background:linear-gradient(135deg,#0F2E24 0%,#1A4A3A 100%);padding:88px 0;color:#fff}
-.section-label{font-size:.6875rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#23876B;margin-bottom:12px}
-.section-title{font-family:'DM Serif Display',serif;font-size:2.625rem;line-height:1.15;margin-bottom:18px;color:#0F2E24}
-.section-title.light{color:#fff}
-.section-desc{font-size:1.0625rem;color:#6B6B6B;max-width:620px;line-height:1.7}
-.section-desc.light{color:rgba(255,255,255,.72)}
-.header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid #E8E6E1}
-.header-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
-.header-logo{display:flex;align-items:center;gap:10px;font-family:'DM Serif Display',serif;font-size:1.2rem;color:#0F2E24}
-.header-logo img{width:34px;height:34px;border-radius:50%;object-fit:cover}
-.header-nav{display:flex;align-items:center;gap:28px}
-.header-nav a{font-size:.8125rem;font-weight:500;color:#4A4A4A;position:relative;padding:4px 0;letter-spacing:.01em}
-.header-nav a:hover,.header-nav a.active{color:#0F2E24}
-.header-nav a.active::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:2px;background:#23876B;border-radius:1px}
-.header-actions{display:flex;align-items:center;gap:14px}
-.header-cart{display:flex;align-items:center;gap:6px;font-size:.8125rem;color:#4A4A4A;padding:8px 10px;border-radius:8px;transition:background .2s}
-.header-cart:hover{background:#F8F6F3;color:#0F2E24}
-.header-cart-count{background:#0F2E24;color:#fff;font-size:.6875rem;font-weight:600;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center}
-.header-lang{position:relative}
-.header-lang-btn{display:flex;align-items:center;gap:4px;font-size:.6875rem;font-weight:600;color:#4A4A4A;padding:6px 10px;border-radius:6px;cursor:pointer;border:none;background:none;font-family:'Inter',sans-serif;text-transform:uppercase;letter-spacing:.05em}
-.header-lang-btn:hover{background:#F8F6F3}
-.header-lang-btn .lang-icon{display:inline-block;width:14px;height:14px;border:1.5px solid #4A4A4A;border-radius:50%;position:relative}
-.header-lang-btn .lang-icon::after{content:'';position:absolute;width:8px;height:1.5px;background:#4A4A4A;top:5px;left:2px}
-.header-lang-dropdown{position:absolute;top:100%;right:0;margin-top:4px;background:#fff;border:1px solid #E8E6E1;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.08);display:none;min-width:120px;overflow:hidden;z-index:50}
-.header-lang-dropdown.show{display:block}
-.header-lang-dropdown a{display:block;padding:10px 16px;font-size:.8125rem;color:#4A4A4A}
-.header-lang-dropdown a:hover{background:#F8F6F3;color:#0F2E24}
-.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:none}
-.hamburger span{width:22px;height:2px;background:#0F2E24;border-radius:2px;transition:all .3s}
-.hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
-.hamburger.active span:nth-child(2){opacity:0}
-.hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
-.mobile-nav{position:fixed;top:0;right:-100%;width:300px;height:100vh;background:#fff;z-index:200;padding:76px 28px 28px;box-shadow:-4px 0 24px rgba(0,0,0,.08);transition:right .35s ease;overflow-y:auto}
-.mobile-nav.open{right:0}
-.mobile-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.3);z-index:150;opacity:0;pointer-events:none;transition:opacity .35s}
-.mobile-overlay.show{opacity:1;pointer-events:auto}
-.mobile-nav a{display:block;padding:14px 0;font-size:1rem;font-weight:500;color:#1A1A1A;border-bottom:1px solid #f0f0f0}
-.mobile-nav a:hover{color:#23876B}
-.mobile-nav .mobile-lang{display:flex;gap:12px;margin-top:24px;padding-top:24px;border-top:1px solid #E8E6E1}
-.mobile-nav .mobile-lang a{font-size:.8125rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;border:none;padding:8px 0}
-.mobile-nav .mobile-lang a.active{color:#23876B}
-.page-hero{background:linear-gradient(135deg,#0F2E24 0%,#1A4A3A 100%);padding:80px 0 60px;color:#fff}
-.page-hero h1{font-family:'DM Serif Display',serif;font-size:3rem;line-height:1.1;margin-bottom:12px}
-.page-hero p{font-size:1.0625rem;color:rgba(255,255,255,.7);max-width:540px}
-.page-nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:28px}
-.page-nav a{font-size:.8125rem;font-weight:500;color:rgba(255,255,255,.65);padding:8px 18px;border:1px solid rgba(255,255,255,.15);border-radius:20px;transition:all .2s}
-.page-nav a:hover{color:#fff;border-color:#23876B;background:rgba(35,135,107,.15)}
-.pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:48px;align-items:start}
-.pricing-card{background:#fff;border:1px solid #E8E6E1;border-radius:16px;overflow:hidden;transition:all .3s}
-.pricing-card:hover{box-shadow:0 12px 40px -8px rgba(15,46,36,.08);border-color:#23876B}
-.pricing-card-header{padding:32px 32px 0}
-.pricing-card-header .badge{display:inline-block;font-size:.6875rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#23876B;background:#E8F5E9;padding:4px 12px;border-radius:4px;margin-bottom:12px}
-.pricing-card-header h2{font-family:'DM Serif Display',serif;font-size:1.625rem;color:#0F2E24;margin-bottom:6px}
-.pricing-card-header .price{font-size:1.5rem;font-weight:700;color:#0F2E24;margin-bottom:14px}
-.pricing-card-header .price span{font-size:.9375rem;font-weight:400;color:#6B6B6B}
-.pricing-card-body{padding:0 32px 32px}
-.pricing-card-body p{font-size:.875rem;color:#4A4A4A;line-height:1.7;margin-bottom:16px}
-.pricing-card-body ul{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
-.pricing-card-body ul li{font-size:.8125rem;color:#6B6B6B;padding-left:20px;position:relative}
-.pricing-card-body ul li::before{content:'\2014';position:absolute;left:0;color:#23876B}
-.pricing-card-cta{display:flex;flex-direction:column;gap:8px}
-.pricing-card-cta .btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:linear-gradient(135deg,#23876B 0%,#2D9E7E 100%);color:#fff;font-weight:600;font-size:.875rem;padding:14px 24px;border-radius:10px;transition:all .25s;font-family:'Inter',sans-serif;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(35,135,107,.2)}
-.pricing-card-cta .btn-primary:hover{background:linear-gradient(135deg,#1A6E56 0%,#23876B 100%);transform:translateY(-1px);box-shadow:0 6px 20px rgba(35,135,107,.3)}
-.pricing-card-cta .btn-secondary{display:inline-flex;align-items:center;justify-content:center;font-size:.8125rem;font-weight:500;color:#23876B;border:1px solid #D8D6D1;padding:12px 24px;border-radius:10px;transition:all .2s;font-family:'Inter',sans-serif;background:none;cursor:pointer}
-.pricing-card-cta .btn-secondary:hover{border-color:#23876B;background:#F8F6F3}
-.pricing-card.featured{border-color:#23876B;border-width:2px;position:relative}
-.pricing-card.featured::before{content:'Mas popular';position:absolute;top:12px;right:12px;background:#23876B;color:#fff;font-size:.625rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;padding:4px 10px;border-radius:4px}
-.pricing-card.featured .badge{background:#145A47;color:#fff}
-.orientacion-card{background:#fff;border:1px solid #E8E6E1;border-radius:16px;padding:32px;margin-top:48px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;transition:all .3s}
-.orientacion-card:hover{border-color:#23876B;box-shadow:0 8px 24px -4px rgba(0,0,0,.04)}
-.orientacion-card div h3{font-family:'DM Serif Display',serif;font-size:1.25rem;color:#0F2E24;margin-bottom:6px}
-.orientacion-card div p{font-size:.8125rem;color:#6B6B6B;max-width:460px;line-height:1.6}
-.orientacion-card .btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:linear-gradient(135deg,#23876B 0%,#2D9E7E 100%);color:#fff;font-weight:600;font-size:.8125rem;padding:12px 24px;border-radius:10px;transition:all .25s;font-family:'Inter',sans-serif;border:none;cursor:pointer;flex-shrink:0;box-shadow:0 4px 16px rgba(35,135,107,.2)}
-.orientacion-card .btn-primary:hover{background:linear-gradient(135deg,#1A6E56 0%,#23876B 100%);transform:translateY(-1px);box-shadow:0 6px 20px rgba(35,135,107,.3)}
-.footer{padding:72px 0 0;background:linear-gradient(180deg,#0F2E24 0%,#0A1F18 100%);color:#fff}
-.footer-grid{display:grid;grid-template-columns:2fr 1.5fr 1.5fr;gap:44px;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.08)}
-.footer-brand p{font-size:.8125rem;color:rgba(255,255,255,.55);line-height:1.7;margin-top:14px;max-width:320px}
-.footer-brand .footer-logo{font-family:'DM Serif Display',serif;font-size:1.2rem;color:#fff}
-.footer h4{font-size:.6875rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#3DBB96;margin-bottom:18px}
-.footer-links{display:flex;flex-direction:column;gap:10px}
-.footer-links a{font-size:.8125rem;color:rgba(255,255,255,.65);transition:color .2s}
-.footer-links a:hover{color:#fff}
-.footer-social{display:flex;gap:10px;margin-top:8px}
-.footer-social a{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:.6875rem;color:rgba(255,255,255,.65);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
-.footer-social a:hover{background:#23876B;color:#fff}
-.footer-legal{padding:20px 0;display:flex;flex-wrap:wrap;gap:6px 22px;justify-content:center;font-size:.75rem}
-.footer-legal a{color:rgba(255,255,255,.45)}
-.footer-legal a:hover{color:#fff}
-.footer-kit{display:flex;gap:14px;align-items:center;margin-top:8px}
-.footer-kit img{height:30px;width:auto}
-.footer-bottom{text-align:center;padding:20px 0;font-size:.6875rem;color:rgba(255,255,255,.35);border-top:1px solid rgba(255,255,255,.05)}
-@media(max-width:968px){
-  .pricing-grid{grid-template-columns:1fr;gap:24px;max-width:520px;margin-left:auto;margin-right:auto}
-  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
-}
-@media(max-width:768px){
-  .header-nav{display:none}
-  .hamburger{display:flex}
-  .page-hero h1{font-size:2.25rem}
-  .section-title{font-size:1.875rem}
-  .section{padding:60px 0}
-  .section-alt{padding:60px 0}
-  .footer-grid{grid-template-columns:1fr;gap:28px}
-  .orientacion-card{flex-direction:column;text-align:center}
-}
-@media(max-width:480px){
-  .page-hero h1{font-size:1.875rem}
-  .page-hero{padding:60px 0 40px}
-  .pricing-card-header{padding:24px 20px 0}
-  .pricing-card-body{padding:0 20px 24px}
-}
-
-@media(max-width:968px){.product-grid{grid-template-columns:1fr!important}}
-@media(max-width:768px){.product-sidebar{position:static!important;margin-top:32px}}
-</style>
-</head>
-<body>
-<a href="#main" class="skip-link">Saltar al contenido principal</a>
-<div class="mobile-overlay" id="mobileOverlay"></div>
-<nav class="mobile-nav" id="mobileNav" aria-label="Navegacion movil">
-  <a href="/es/">Inicio</a>
-  <a href="/es/esencia/">Esencia</a>
-  <a href="/es/servicios/">Servicios</a>
-  <a href="/es/contacto/">Contacto</a>
-  <a href="/es/recursos/">Recursos</a>
-  <a href="/es/proceso-de-compra/step1/">Mi cesta</a>
-  <a href="/es/account/login/">Mi cuenta</a>
-  <div class="mobile-lang">
-    <a href="/es/" class="active" hreflang="es">ES</a>
-    <a href="/ca/" hreflang="ca">CA</a>
-    <a href="/en/" hreflang="en">EN</a>
-  </div>
-</nav>
-<header class="header" role="banner">
-  <div class="container header-inner">
-    <a href="/es/" class="header-logo" aria-label="Joana Job — Inicio">
-      <img src="https://images.gestionaweb.cat/7517/pqimg-240-240/baixa-3-2.jpg" alt="" width="34" height="34"> Joana Job
-    </a>
-    <nav class="header-nav" aria-label="Navegacion principal">
-      <a href="/es/esencia/">Esencia</a>
-      <a href="/es/servicios/">Servicios</a>
-      <a href="/es/contacto/">Contacto</a>
-      <a href="/es/recursos/">Recursos</a>
-    </nav>
-    <div class="header-actions">
-      <div class="header-lang">
-        <button class="header-lang-btn" id="langBtn" aria-expanded="false" aria-haspopup="true" aria-label="Seleccionar idioma">
-          <span class="lang-icon" aria-hidden="true"></span> ES
-        </button>
-        <div class="header-lang-dropdown" id="langDropdown" role="menu">
-          <a href="/es/" role="menuitem" hreflang="es"><strong>ES</strong> — Espanol</a>
-          <a href="/ca/" role="menuitem" hreflang="ca">CA — Catala</a>
-          <a href="/en/" role="menuitem" hreflang="en">EN — English</a>
-        </div>
-      </div>
-      <a href="/es/proceso-de-compra/step1/" class="header-cart" aria-label="Mi cesta">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
-        <span class="header-cart-count" aria-hidden="true">0</span>
-        <span class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0">Mi cesta, 0 productos</span>
-      </a>
-      <button class="hamburger" id="hamburger" aria-label="Menu de navegacion" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </div>
-</header>
-<main id="main">
-<section class="page-hero">
-  <div class="container">
-    <p class="section-label" style="color:#3DBB96">Pack Base</p>
-    <h1>Fundamentos Laborales</h1>
-    <p style="max-width:580px">Programa de transformacion con supervision personalizada. Seis ambitos para el crecimiento profesional en el mercado laboral actual.</p>
-  </div>
-</section>
-<section class="section">
-  <div class="container">
-    <div class="product-grid" style="display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:start">
-      <div>
-        <img src="https://images.gestionaweb.cat/7517/img-480-0/pexels-andri-file-288172640-36906867-1.jpg" alt="Pack Base Fundamentos Laborales" style="width:100%;border-radius:16px;margin-bottom:28px;aspect-ratio:16/9;object-fit:cover" loading="lazy">
-        <p class="section-label">Que incluye</p>
-        <h2 class="section-title" style="font-size:1.75rem">480 EUR <span style="font-size:1rem;font-weight:400;color:#6B6B6B">o 80 EUR/mes</span></h2>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0">
-          <div><h3 style="font-size:.8125rem;font-weight:600;color:#0F2E24;margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em">Documentos de registro</h3><ul style="display:flex;flex-direction:column;gap:8px"><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">REGISTRO DE DATOS Y PREFERENCIAS</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">REGISTRO DEL PERFIL O CURRICULUM</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">REGISTRO DE POSICIONES LABORALES OBJETIVO</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">REGISTRO DEL HISTORIAL PROFESIONAL</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">CUESTIONARIO DEL HISTORIAL PROFESIONAL</li></ul></div>
-          <div><h3 style="font-size:.8125rem;font-weight:600;color:#0F2E24;margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em">Informes entregables</h3><ul style="display:flex;flex-direction:column;gap:8px"><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">ANALISIS DEL MERCADO LABORAL</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">ESTRATEGIA DE EMPLEO</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">PERFIL LABORAL - PERFIL DE LINKEDIN</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">CURRICULUM</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">ESTRATEGIAS DE ENTREVISTA</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">ESTRATEGIAS DE NEGOCIACION</li></ul></div>
-        </div>
-        <div style="display:flex;gap:12px;flex-wrap:wrap">
-          <a href="https://book.stripe.com/00w9AT13L7jM3PtaVTeEo02" target="_blank" rel="noopener" class="hero-cta" style="display:inline-flex">Reserva completa</a>
-          <a href="https://buy.stripe.com/6oU9ATeUB33w1Hl0hfeEo03" target="_blank" rel="noopener" class="btn-outline" style="display:inline-flex">80 EUR/mes</a>
-        </div>
-      </div>
-      <div class="product-sidebar" style="background:#F8F6F3;border-radius:16px;padding:32px;position:sticky;top:100px">
-        <h3 style="font-family:'DM Serif Display',serif;font-size:1.25rem;color:#0F2E24;margin-bottom:16px">Otros servicios</h3>
-        <div style="display:flex;flex-direction:column;gap:12px">
-          <div style="background:#fff;border:1px solid #E8E6E1;border-radius:10px;padding:14px">
-            <p style="font-size:.6875rem;color:#23876B;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px">Llamada individual</p>
-            <p style="font-size:.8125rem;color:#4A4A4A">Orientacion Profesional 80 EUR</p>
-            <a href="https://buy.stripe.com/14A8wPcMt47A85J6FDeEo06" target="_blank" rel="noopener" style="font-size:.75rem;font-weight:600;color:#23876B">Reservar</a>
-          </div>
-          <div style="background:#fff;border:1px solid #E8E6E1;border-radius:10px;padding:14px">
-            <p style="font-size:.6875rem;color:#145A47;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px">Pack Completo</p>
-            <p style="font-size:.8125rem;color:#4A4A4A">Proyeccion del Crecimiento 600 EUR</p>
-            <a href="/es/productos/proyeccion-del-crecimiento/" style="font-size:.75rem;font-weight:600;color:#23876B">Ver pack</a>
-          </div>
-          <div style="background:#fff;border:1px solid #E8E6E1;border-radius:10px;padding:14px">
-            <p style="font-size:.6875rem;color:#0F2E24;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px">Pack Premium</p>
-            <p style="font-size:.8125rem;color:#4A4A4A">Consolidacion Trayectoria 1.200 EUR</p>
-            <a href="/es/productos/consolidacion-de-la-trayectoria/" style="font-size:.75rem;font-weight:600;color:#23876B">Ver pack</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</main><footer class="footer" role="contentinfo">
-  <div class="container">
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <div class="footer-logo">
-          <img src="https://images.gestionaweb.cat/7517/pqimg-640-640/captura-de-pantalla-2025-10-20-a-las-9-25-19.png" alt="Joana Job" style="width:38px;height:38px;border-radius:50%;display:inline-block;vertical-align:middle;margin-right:6px"> Joana Job
-        </div>
-        <p>Psicologia Laboral Aplicada y estrategia profesional basada en datos del mercado laboral actual.</p>
-        <p style="margin-top:10px"><a href="mailto:joana@martinez.cat" style="color:rgba(255,255,255,.6);font-size:.8125rem">joana@martinez.cat</a></p>
-      </div>
-      <div>
-        <h4>Enlaces</h4>
-        <div class="footer-links">
-          <a href="/es/esencia/">Esencia</a>
-          <a href="/es/servicios/">Servicios</a>
-          <a href="/es/contacto/">Contacto</a>
-          <a href="/es/recursos/">Recursos</a>
-          <a href="/es/mapa-web/">Mapa web</a>
-        </div>
-      </div>
-      <div>
-        <h4>Legal</h4>
-        <div class="footer-links">
-          <a href="/es/aviso-legal/">Aviso legal</a>
-          <a href="/es/politica-de-privacidad/">Politica de privacidad</a>
-          <a href="/es/condiciones-generales-y-de-contratacion/">Condiciones generales</a>
-          <a href="/es/politica-de-cookies/">Politica de cookies</a>
-          <a href="/es/accesibilidad/">Accesibilidad</a>
-        </div>
-        <div class="footer-social" style="margin-top:18px">
-          <a href="https://www.instagram.com/joanajob.es?igsh=MXVqNGU0MDFpcGxkaw==" target="_blank" rel="nofollow noopener" aria-label="Instagram Joana Job">IG</a>
-          <a href="https://www.linkedin.com/in/joana-mart%C3%ADnez-pardell/" target="_blank" rel="nofollow noopener" aria-label="LinkedIn Joana Job">LI</a>
-        </div>
-      </div>
-    </div>
-    <div style="display:flex;flex-wrap:wrap;gap:20px;align-items:center;padding:28px 0;border-bottom:1px solid rgba(255,255,255,.05);justify-content:space-between">
-      <p style="font-size:.75rem;color:rgba(255,255,255,.45);max-width:380px">En JoanaJob donamos el 0,5 % de todos los beneficios para ayudar a eliminar el CO2 de la atmosfera.</p>
-      <div class="footer-kit">
-        <img src="https://docs.gestionaweb.cat/0000/kit-digital/kd-ue-nextgeneration-white-negative.svg" alt="Financiado por la Union Europea NextGenerationEU" loading="lazy">
-        <img src="https://docs.gestionaweb.cat/0000/kit-digital/kd-govern-white-negative.svg" alt="Gobierno de Espana" loading="lazy">
-        <img src="https://docs.gestionaweb.cat/0000/kit-digital/kd-logo-plan-white-negative.svg" alt="Plan de Recuperacion, Transformacion y Resiliencia" loading="lazy">
-      </div>
-    </div>
-    <div class="footer-legal">
-      <a href="/es/aviso-legal/">Aviso legal</a>
-      <a href="/es/politica-de-privacidad/">Privacidad</a>
-      <a href="/es/condiciones-generales-y-de-contratacion/">Condiciones</a>
-      <a href="/es/politica-de-cookies/">Cookies</a>
-      <a href="javascript:document.dispatchEvent(new Event('cookienator:show-configurator'))">Configuracion de cookies</a>
-      <a href="/es/accesibilidad/">Accesibilidad</a>
-    </div>
-    <div class="footer-bottom">
-      <p>(c) 2026 Joana Job — <a href="https://www.hooba.com/es/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.35)">Hooba web</a></p>
-    </div>
-  </div>
-</footer>
-<script>
-const langBtn=document.getElementById('langBtn');
-const langDropdown=document.getElementById('langDropdown');
-if(langBtn&&langDropdown){langBtn.addEventListener('click',(e)=>{e.stopPropagation();langDropdown.classList.toggle('show');langBtn.setAttribute('aria-expanded',langDropdown.classList.contains('show'));});document.addEventListener('click',()=>{langDropdown.classList.remove('show');langBtn.setAttribute('aria-expanded','false');});}
-const hamburger=document.getElementById('hamburger');
-const mobileNav=document.getElementById('mobileNav');
-const mobileOverlay=document.getElementById('mobileOverlay');
-function toggleMobile(o){mobileNav.classList.toggle('open',o);mobileOverlay.classList.toggle('show',o);hamburger.classList.toggle('active',o);hamburger.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';}
-if(hamburger){hamburger.addEventListener('click',()=>toggleMobile(!mobileNav.classList.contains('open')));}
-if(mobileOverlay){mobileOverlay.addEventListener('click',()=>toggleMobile(false));}
-if(mobileNav){mobileNav.querySelectorAll('a').forEach(a=>{a.addEventListener('click',()=>toggleMobile(false));});}
-</script>
-</body>
-</html>
-<script>
-const langBtn=document.getElementById('langBtn');
-const langDropdown=document.getElementById('langDropdown');
-if(langBtn&&langDropdown){langBtn.addEventListener('click',(e)=>{e.stopPropagation();langDropdown.classList.toggle('show');langBtn.setAttribute('aria-expanded',langDropdown.classList.contains('show'));});document.addEventListener('click',()=>{langDropdown.classList.remove('show');langBtn.setAttribute('aria-expanded','false');});}
-const hamburger=document.getElementById('hamburger');
-const mobileNav=document.getElementById('mobileNav');
-const mobileOverlay=document.getElementById('mobileOverlay');
-function toggleMobile(o){mobileNav.classList.toggle('open',o);mobileOverlay.classList.toggle('show',o);hamburger.classList.toggle('active',o);hamburger.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';}
-if(hamburger){hamburger.addEventListener('click',()=>toggleMobile(!mobileNav.classList.contains('open')));}
-if(mobileOverlay){mobileOverlay.addEventListener('click',()=>toggleMobile(false));}
-if(mobileNav){mobileNav.querySelectorAll('a').forEach(a=>{a.addEventListener('click',()=>toggleMobile(false));});}
-</script>
+     1|<!DOCTYPE html>
+     2|<html lang="es">
+     3|<head>
+     4|<meta charset="UTF-8">
+<meta name="referrer" content="no-referrer">
+     5|<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     6|<title>Pack Base – Fundamentos Laborales | JoanaJob</title>
+     7|<meta name="description" content="Pack Base de consultoria laboral.">
+     8|<link rel="canonical" href="https://www.joanajob.com/es/productos/fundamentos-laborales/">
+     9|<link rel="alternate" hreflang="x-default" href="https://www.joanajob.com/es/">
+    10|<link rel="alternate" hreflang="es" href="https://www.joanajob.com/es/">
+    11|<link rel="alternate" hreflang="ca" href="https://www.joanajob.com/ca/">
+    12|<link rel="alternate" hreflang="en" href="https://www.joanajob.com/en/">
+    13|<link rel="icon" href="https://docs.gestionaweb.cat/7517/logo2.ico" type="image/x-icon">
+    14|<link rel="preconnect" href="https://fonts.googleapis.com">
+    15|<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    16|<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    17|<style>
+    18|*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    19|html{scroll-behavior:smooth;scroll-padding-top:76px}
+    20|body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased;color:#1A1A1A;background:#fff;line-height:1.6}
+    21|img{max-width:100%;height:auto;display:block}
+    22|a{color:#23876B;text-decoration:none;transition:color .2s}
+    23|a:hover{color:#145A47}
+    24|ul{list-style:none}
+    25|.skip-link{position:absolute;top:-100%;left:0;z-index:9999;background:#23876B;color:#fff;padding:12px 24px;font-weight:600;transition:top .2s}
+    26|.skip-link:focus{top:0}
+    27|.container{max-width:1200px;margin:0 auto;padding:0 24px}
+    28|.section{padding:88px 0}
+    29|.section-alt{background:linear-gradient(180deg,#F8F6F3 0%,#F2EFEA 100%);padding:88px 0}
+    30|.section-dark{background:linear-gradient(135deg,#0F2E24 0%,#1A4A3A 100%);padding:88px 0;color:#fff}
+    31|.section-label{font-size:.6875rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#23876B;margin-bottom:12px}
+    32|.section-title{font-family:'DM Serif Display',serif;font-size:2.625rem;line-height:1.15;margin-bottom:18px;color:#0F2E24}
+    33|.section-title.light{color:#fff}
+    34|.section-desc{font-size:1.0625rem;color:#6B6B6B;max-width:620px;line-height:1.7}
+    35|.section-desc.light{color:rgba(255,255,255,.72)}
+    36|.header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid #E8E6E1}
+    37|.header-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
+    38|.header-logo{display:flex;align-items:center;gap:10px;font-family:'DM Serif Display',serif;font-size:1.2rem;color:#0F2E24}
+    39|.header-logo img{width:34px;height:34px;border-radius:50%;object-fit:cover}
+    40|.header-nav{display:flex;align-items:center;gap:28px}
+    41|.header-nav a{font-size:.8125rem;font-weight:500;color:#4A4A4A;position:relative;padding:4px 0;letter-spacing:.01em}
+    42|.header-nav a:hover,.header-nav a.active{color:#0F2E24}
+    43|.header-nav a.active::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:2px;background:#23876B;border-radius:1px}
+    44|.header-actions{display:flex;align-items:center;gap:14px}
+    45|.header-cart{display:flex;align-items:center;gap:6px;font-size:.8125rem;color:#4A4A4A;padding:8px 10px;border-radius:8px;transition:background .2s}
+    46|.header-cart:hover{background:#F8F6F3;color:#0F2E24}
+    47|.header-cart-count{background:#0F2E24;color:#fff;font-size:.6875rem;font-weight:600;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+    48|.header-lang{position:relative}
+    49|.header-lang-btn{display:flex;align-items:center;gap:4px;font-size:.6875rem;font-weight:600;color:#4A4A4A;padding:6px 10px;border-radius:6px;cursor:pointer;border:none;background:none;font-family:'Inter',sans-serif;text-transform:uppercase;letter-spacing:.05em}
+    50|.header-lang-btn:hover{background:#F8F6F3}
+    51|.header-lang-btn .lang-icon{display:inline-block;width:14px;height:14px;border:1.5px solid #4A4A4A;border-radius:50%;position:relative}
+    52|.header-lang-btn .lang-icon::after{content:'';position:absolute;width:8px;height:1.5px;background:#4A4A4A;top:5px;left:2px}
+    53|.header-lang-dropdown{position:absolute;top:100%;right:0;margin-top:4px;background:#fff;border:1px solid #E8E6E1;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.08);display:none;min-width:120px;overflow:hidden;z-index:50}
+    54|.header-lang-dropdown.show{display:block}
+    55|.header-lang-dropdown a{display:block;padding:10px 16px;font-size:.8125rem;color:#4A4A4A}
+    56|.header-lang-dropdown a:hover{background:#F8F6F3;color:#0F2E24}
+    57|.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:none}
+    58|.hamburger span{width:22px;height:2px;background:#0F2E24;border-radius:2px;transition:all .3s}
+    59|.hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+    60|.hamburger.active span:nth-child(2){opacity:0}
+    61|.hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+    62|.mobile-nav{position:fixed;top:0;right:-100%;width:300px;height:100vh;background:#fff;z-index:200;padding:76px 28px 28px;box-shadow:-4px 0 24px rgba(0,0,0,.08);transition:right .35s ease;overflow-y:auto}
+    63|.mobile-nav.open{right:0}
+    64|.mobile-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.3);z-index:150;opacity:0;pointer-events:none;transition:opacity .35s}
+    65|.mobile-overlay.show{opacity:1;pointer-events:auto}
+    66|.mobile-nav a{display:block;padding:14px 0;font-size:1rem;font-weight:500;color:#1A1A1A;border-bottom:1px solid #f0f0f0}
+    67|.mobile-nav a:hover{color:#23876B}
+    68|.mobile-nav .mobile-lang{display:flex;gap:12px;margin-top:24px;padding-top:24px;border-top:1px solid #E8E6E1}
+    69|.mobile-nav .mobile-lang a{font-size:.8125rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;border:none;padding:8px 0}
+    70|.mobile-nav .mobile-lang a.active{color:#23876B}
+    71|.page-hero{background:linear-gradient(135deg,#0F2E24 0%,#1A4A3A 100%);padding:80px 0 60px;color:#fff}
+    72|.page-hero h1{font-family:'DM Serif Display',serif;font-size:3rem;line-height:1.1;margin-bottom:12px}
+    73|.page-hero p{font-size:1.0625rem;color:rgba(255,255,255,.7);max-width:540px}
+    74|.page-nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:28px}
+    75|.page-nav a{font-size:.8125rem;font-weight:500;color:rgba(255,255,255,.65);padding:8px 18px;border:1px solid rgba(255,255,255,.15);border-radius:20px;transition:all .2s}
+    76|.page-nav a:hover{color:#fff;border-color:#23876B;background:rgba(35,135,107,.15)}
+    77|.pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:48px;align-items:start}
+    78|.pricing-card{background:#fff;border:1px solid #E8E6E1;border-radius:16px;overflow:hidden;transition:all .3s}
+    79|.pricing-card:hover{box-shadow:0 12px 40px -8px rgba(15,46,36,.08);border-color:#23876B}
+    80|.pricing-card-header{padding:32px 32px 0}
+    81|.pricing-card-header .badge{display:inline-block;font-size:.6875rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#23876B;background:#E8F5E9;padding:4px 12px;border-radius:4px;margin-bottom:12px}
+    82|.pricing-card-header h2{font-family:'DM Serif Display',serif;font-size:1.625rem;color:#0F2E24;margin-bottom:6px}
+    83|.pricing-card-header .price{font-size:1.5rem;font-weight:700;color:#0F2E24;margin-bottom:14px}
+    84|.pricing-card-header .price span{font-size:.9375rem;font-weight:400;color:#6B6B6B}
+    85|.pricing-card-body{padding:0 32px 32px}
+    86|.pricing-card-body p{font-size:.875rem;color:#4A4A4A;line-height:1.7;margin-bottom:16px}
+    87|.pricing-card-body ul{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+    88|.pricing-card-body ul li{font-size:.8125rem;color:#6B6B6B;padding-left:20px;position:relative}
+    89|.pricing-card-body ul li::before{content:'\2014';position:absolute;left:0;color:#23876B}
+    90|.pricing-card-cta{display:flex;flex-direction:column;gap:8px}
+    91|.pricing-card-cta .btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:linear-gradient(135deg,#23876B 0%,#2D9E7E 100%);color:#fff;font-weight:600;font-size:.875rem;padding:14px 24px;border-radius:10px;transition:all .25s;font-family:'Inter',sans-serif;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(35,135,107,.2)}
+    92|.pricing-card-cta .btn-primary:hover{background:linear-gradient(135deg,#1A6E56 0%,#23876B 100%);transform:translateY(-1px);box-shadow:0 6px 20px rgba(35,135,107,.3)}
+    93|.pricing-card-cta .btn-secondary{display:inline-flex;align-items:center;justify-content:center;font-size:.8125rem;font-weight:500;color:#23876B;border:1px solid #D8D6D1;padding:12px 24px;border-radius:10px;transition:all .2s;font-family:'Inter',sans-serif;background:none;cursor:pointer}
+    94|.pricing-card-cta .btn-secondary:hover{border-color:#23876B;background:#F8F6F3}
+    95|.pricing-card.featured{border-color:#23876B;border-width:2px;position:relative}
+    96|.pricing-card.featured::before{content:'Mas popular';position:absolute;top:12px;right:12px;background:#23876B;color:#fff;font-size:.625rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;padding:4px 10px;border-radius:4px}
+    97|.pricing-card.featured .badge{background:#145A47;color:#fff}
+    98|.orientacion-card{background:#fff;border:1px solid #E8E6E1;border-radius:16px;padding:32px;margin-top:48px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;transition:all .3s}
+    99|.orientacion-card:hover{border-color:#23876B;box-shadow:0 8px 24px -4px rgba(0,0,0,.04)}
+   100|.orientacion-card div h3{font-family:'DM Serif Display',serif;font-size:1.25rem;color:#0F2E24;margin-bottom:6px}
+   101|.orientacion-card div p{font-size:.8125rem;color:#6B6B6B;max-width:460px;line-height:1.6}
+   102|.orientacion-card .btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:linear-gradient(135deg,#23876B 0%,#2D9E7E 100%);color:#fff;font-weight:600;font-size:.8125rem;padding:12px 24px;border-radius:10px;transition:all .25s;font-family:'Inter',sans-serif;border:none;cursor:pointer;flex-shrink:0;box-shadow:0 4px 16px rgba(35,135,107,.2)}
+   103|.orientacion-card .btn-primary:hover{background:linear-gradient(135deg,#1A6E56 0%,#23876B 100%);transform:translateY(-1px);box-shadow:0 6px 20px rgba(35,135,107,.3)}
+   104|.footer{padding:72px 0 0;background:linear-gradient(180deg,#0F2E24 0%,#0A1F18 100%);color:#fff}
+   105|.footer-grid{display:grid;grid-template-columns:2fr 1.5fr 1.5fr;gap:44px;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.08)}
+   106|.footer-brand p{font-size:.8125rem;color:rgba(255,255,255,.55);line-height:1.7;margin-top:14px;max-width:320px}
+   107|.footer-brand .footer-logo{font-family:'DM Serif Display',serif;font-size:1.2rem;color:#fff}
+   108|.footer h4{font-size:.6875rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#3DBB96;margin-bottom:18px}
+   109|.footer-links{display:flex;flex-direction:column;gap:10px}
+   110|.footer-links a{font-size:.8125rem;color:rgba(255,255,255,.65);transition:color .2s}
+   111|.footer-links a:hover{color:#fff}
+   112|.footer-social{display:flex;gap:10px;margin-top:8px}
+   113|.footer-social a{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:.6875rem;color:rgba(255,255,255,.65);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+   114|.footer-social a:hover{background:#23876B;color:#fff}
+   115|.footer-legal{padding:20px 0;display:flex;flex-wrap:wrap;gap:6px 22px;justify-content:center;font-size:.75rem}
+   116|.footer-legal a{color:rgba(255,255,255,.45)}
+   117|.footer-legal a:hover{color:#fff}
+   118|.footer-kit{display:flex;gap:14px;align-items:center;margin-top:8px}
+   119|.footer-kit img{height:30px;width:auto}
+   120|.footer-bottom{text-align:center;padding:20px 0;font-size:.6875rem;color:rgba(255,255,255,.35);border-top:1px solid rgba(255,255,255,.05)}
+   121|@media(max-width:968px){
+   122|  .pricing-grid{grid-template-columns:1fr;gap:24px;max-width:520px;margin-left:auto;margin-right:auto}
+   123|  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+   124|}
+   125|@media(max-width:768px){
+   126|  .header-nav{display:none}
+   127|  .hamburger{display:flex}
+   128|  .page-hero h1{font-size:2.25rem}
+   129|  .section-title{font-size:1.875rem}
+   130|  .section{padding:60px 0}
+   131|  .section-alt{padding:60px 0}
+   132|  .footer-grid{grid-template-columns:1fr;gap:28px}
+   133|  .orientacion-card{flex-direction:column;text-align:center}
+   134|}
+   135|@media(max-width:480px){
+   136|  .page-hero h1{font-size:1.875rem}
+   137|  .page-hero{padding:60px 0 40px}
+   138|  .pricing-card-header{padding:24px 20px 0}
+   139|  .pricing-card-body{padding:0 20px 24px}
+   140|}
+   141|
+   142|@media(max-width:968px){.product-grid{grid-template-columns:1fr!important}}
+   143|@media(max-width:768px){.product-sidebar{position:static!important;margin-top:32px}}
+   144|</style>
+   145|</head>
+   146|<body>
+   147|<a href="#main" class="skip-link">Saltar al contenido principal</a>
+   148|<div class="mobile-overlay" id="mobileOverlay"></div>
+   149|<nav class="mobile-nav" id="mobileNav" aria-label="Navegacion movil">
+   150|  <a href="/es/">Inicio</a>
+   151|  <a href="/es/esencia/">Esencia</a>
+   152|  <a href="/es/servicios/">Servicios</a>
+   153|  <a href="/es/contacto/">Contacto</a>
+   154|  <a href="/es/recursos/">Recursos</a>
+   155|  <a href="/es/proceso-de-compra/step1/">Mi cesta</a>
+   156|  <a href="/es/account/login/">Mi cuenta</a>
+   157|  <div class="mobile-lang">
+   158|    <a href="/es/" class="active" hreflang="es">ES</a>
+   159|    <a href="/ca/" hreflang="ca">CA</a>
+   160|    <a href="/en/" hreflang="en">EN</a>
+   161|  </div>
+   162|</nav>
+   163|<header class="header" role="banner">
+   164|  <div class="container header-inner">
+   165|    <a href="/es/" class="header-logo" aria-label="Joana Job — Inicio">
+   166|      <img src="https://images.gestionaweb.cat/7517/pqimg-240-240/baixa-3-2.jpg" alt="" width="34" height="34"> Joana Job
+   167|    </a>
+   168|    <nav class="header-nav" aria-label="Navegacion principal">
+   169|      <a href="/es/esencia/">Esencia</a>
+   170|      <a href="/es/servicios/">Servicios</a>
+   171|      <a href="/es/contacto/">Contacto</a>
+   172|      <a href="/es/recursos/">Recursos</a>
+   173|    </nav>
+   174|    <div class="header-actions">
+   175|      <div class="header-lang">
+   176|        <button class="header-lang-btn" id="langBtn" aria-expanded="false" aria-haspopup="true" aria-label="Seleccionar idioma">
+   177|          <span class="lang-icon" aria-hidden="true"></span> ES
+   178|        </button>
+   179|        <div class="header-lang-dropdown" id="langDropdown" role="menu">
+   180|          <a href="/es/" role="menuitem" hreflang="es"><strong>ES</strong> — Espanol</a>
+   181|          <a href="/ca/" role="menuitem" hreflang="ca">CA — Catala</a>
+   182|          <a href="/en/" role="menuitem" hreflang="en">EN — English</a>
+   183|        </div>
+   184|      </div>
+   185|      <a href="/es/proceso-de-compra/step1/" class="header-cart" aria-label="Mi cesta">
+   186|        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+   187|        <span class="header-cart-count" aria-hidden="true">0</span>
+   188|        <span class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0">Mi cesta, 0 productos</span>
+   189|      </a>
+   190|      <button class="hamburger" id="hamburger" aria-label="Menu de navegacion" aria-expanded="false">
+   191|        <span></span><span></span><span></span>
+   192|      </button>
+   193|    </div>
+   194|  </div>
+   195|</header>
+   196|<main id="main">
+   197|<section class="page-hero">
+   198|  <div class="container">
+   199|    <p class="section-label" style="color:#3DBB96">Pack Base</p>
+   200|    <h1>Fundamentos Laborales</h1>
+   201|    <p style="max-width:580px">Programa de transformacion con supervision personalizada. Seis ambitos para el crecimiento profesional en el mercado laboral actual.</p>
+   202|  </div>
+   203|</section>
+   204|<section class="section">
+   205|  <div class="container">
+   206|    <div class="product-grid" style="display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:start">
+   207|      <div>
+   208|        <img src="https://images.gestionaweb.cat/7517/pwimg-480/pexels-andri-file-288172640-36906867-1.jpg" alt="Pack Base Fundamentos Laborales" style="width:100%;border-radius:16px;margin-bottom:28px;aspect-ratio:16/9;object-fit:cover" loading="lazy">
+   209|        <p class="section-label">Que incluye</p>
+   210|        <h2 class="section-title" style="font-size:1.75rem">480 EUR <span style="font-size:1rem;font-weight:400;color:#6B6B6B">o 80 EUR/mes</span></h2>
+   211|        <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0">
+   212|          <div><h3 style="font-size:.8125rem;font-weight:600;color:#0F2E24;margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em">Documentos de registro</h3><ul style="display:flex;flex-direction:column;gap:8px"><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">REGISTRO DE DATOS Y PREFERENCIAS</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">REGISTRO DEL PERFIL O CURRICULUM</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">REGISTRO DE POSICIONES LABORALES OBJETIVO</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">REGISTRO DEL HISTORIAL PROFESIONAL</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">CUESTIONARIO DEL HISTORIAL PROFESIONAL</li></ul></div>
+   213|          <div><h3 style="font-size:.8125rem;font-weight:600;color:#0F2E24;margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em">Informes entregables</h3><ul style="display:flex;flex-direction:column;gap:8px"><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">ANALISIS DEL MERCADO LABORAL</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">ESTRATEGIA DE EMPLEO</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">PERFIL LABORAL - PERFIL DE LINKEDIN</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">CURRICULUM</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">ESTRATEGIAS DE ENTREVISTA</li><li style="font-size:.8125rem;color:#6B6B6B;padding-left:16px;position:relative">ESTRATEGIAS DE NEGOCIACION</li></ul></div>
+   214|        </div>
+   215|        <div style="display:flex;gap:12px;flex-wrap:wrap">
+   216|          <a href="https://book.stripe.com/00w9AT13L7jM3PtaVTeEo02" target="_blank" rel="noopener" class="hero-cta" style="display:inline-flex">Reserva completa</a>
+   217|          <a href="https://buy.stripe.com/6oU9ATeUB33w1Hl0hfeEo03" target="_blank" rel="noopener" class="btn-outline" style="display:inline-flex">80 EUR/mes</a>
+   218|        </div>
+   219|      </div>
+   220|      <div class="product-sidebar" style="background:#F8F6F3;border-radius:16px;padding:32px;position:sticky;top:100px">
+   221|        <h3 style="font-family:'DM Serif Display',serif;font-size:1.25rem;color:#0F2E24;margin-bottom:16px">Otros servicios</h3>
+   222|        <div style="display:flex;flex-direction:column;gap:12px">
+   223|          <div style="background:#fff;border:1px solid #E8E6E1;border-radius:10px;padding:14px">
+   224|            <p style="font-size:.6875rem;color:#23876B;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px">Llamada individual</p>
+   225|            <p style="font-size:.8125rem;color:#4A4A4A">Orientacion Profesional 80 EUR</p>
+   226|            <a href="https://buy.stripe.com/14A8wPcMt47A85J6FDeEo06" target="_blank" rel="noopener" style="font-size:.75rem;font-weight:600;color:#23876B">Reservar</a>
+   227|          </div>
+   228|          <div style="background:#fff;border:1px solid #E8E6E1;border-radius:10px;padding:14px">
+   229|            <p style="font-size:.6875rem;color:#145A47;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px">Pack Completo</p>
+   230|            <p style="font-size:.8125rem;color:#4A4A4A">Proyeccion del Crecimiento 600 EUR</p>
+   231|            <a href="/es/productos/proyeccion-del-crecimiento/" style="font-size:.75rem;font-weight:600;color:#23876B">Ver pack</a>
+   232|          </div>
+   233|          <div style="background:#fff;border:1px solid #E8E6E1;border-radius:10px;padding:14px">
+   234|            <p style="font-size:.6875rem;color:#0F2E24;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px">Pack Premium</p>
+   235|            <p style="font-size:.8125rem;color:#4A4A4A">Consolidacion Trayectoria 1.200 EUR</p>
+   236|            <a href="/es/productos/consolidacion-de-la-trayectoria/" style="font-size:.75rem;font-weight:600;color:#23876B">Ver pack</a>
+   237|          </div>
+   238|        </div>
+   239|      </div>
+   240|    </div>
+   241|  </div>
+   242|</section>
+   243|</main><footer class="footer" role="contentinfo">
+   244|  <div class="container">
+   245|    <div class="footer-grid">
+   246|      <div class="footer-brand">
+   247|        <div class="footer-logo">
+   248|          <img src="https://images.gestionaweb.cat/7517/pqimg-640-640/captura-de-pantalla-2025-10-20-a-las-9-25-19.png" alt="Joana Job" style="width:38px;height:38px;border-radius:50%;display:inline-block;vertical-align:middle;margin-right:6px"> Joana Job
+   249|        </div>
+   250|        <p>Psicologia Laboral Aplicada y estrategia profesional basada en datos del mercado laboral actual.</p>
+   251|        <p style="margin-top:10px"><a href="mailto:joana@martinez.cat" style="color:rgba(255,255,255,.6);font-size:.8125rem">joana@martinez.cat</a></p>
+   252|      </div>
+   253|      <div>
+   254|        <h4>Enlaces</h4>
+   255|        <div class="footer-links">
+   256|          <a href="/es/esencia/">Esencia</a>
+   257|          <a href="/es/servicios/">Servicios</a>
+   258|          <a href="/es/contacto/">Contacto</a>
+   259|          <a href="/es/recursos/">Recursos</a>
+   260|          <a href="/es/mapa-web/">Mapa web</a>
+   261|        </div>
+   262|      </div>
+   263|      <div>
+   264|        <h4>Legal</h4>
+   265|        <div class="footer-links">
+   266|          <a href="/es/aviso-legal/">Aviso legal</a>
+   267|          <a href="/es/politica-de-privacidad/">Politica de privacidad</a>
+   268|          <a href="/es/condiciones-generales-y-de-contratacion/">Condiciones generales</a>
+   269|          <a href="/es/politica-de-cookies/">Politica de cookies</a>
+   270|          <a href="/es/accesibilidad/">Accesibilidad</a>
+   271|        </div>
+   272|        <div class="footer-social" style="margin-top:18px">
+   273|          <a href="https://www.instagram.com/joanajob.es?igsh=MXVqNGU0MDFpcGxkaw==" target="_blank" rel="nofollow noopener" aria-label="Instagram Joana Job">IG</a>
+   274|          <a href="https://www.linkedin.com/in/joana-mart%C3%ADnez-pardell/" target="_blank" rel="nofollow noopener" aria-label="LinkedIn Joana Job">LI</a>
+   275|        </div>
+   276|      </div>
+   277|    </div>
+   278|    <div style="display:flex;flex-wrap:wrap;gap:20px;align-items:center;padding:28px 0;border-bottom:1px solid rgba(255,255,255,.05);justify-content:space-between">
+   279|      <p style="font-size:.75rem;color:rgba(255,255,255,.45);max-width:380px">En JoanaJob donamos el 0,5 % de todos los beneficios para ayudar a eliminar el CO2 de la atmosfera.</p>
+   280|      <div class="footer-kit">
+   281|        <img src="https://docs.gestionaweb.cat/0000/kit-digital/kd-ue-nextgeneration-white-negative.svg" alt="Financiado por la Union Europea NextGenerationEU" loading="lazy">
+   282|        <img src="https://docs.gestionaweb.cat/0000/kit-digital/kd-govern-white-negative.svg" alt="Gobierno de Espana" loading="lazy">
+   283|        <img src="https://docs.gestionaweb.cat/0000/kit-digital/kd-logo-plan-white-negative.svg" alt="Plan de Recuperacion, Transformacion y Resiliencia" loading="lazy">
+   284|      </div>
+   285|    </div>
+   286|    <div class="footer-legal">
+   287|      <a href="/es/aviso-legal/">Aviso legal</a>
+   288|      <a href="/es/politica-de-privacidad/">Privacidad</a>
+   289|      <a href="/es/condiciones-generales-y-de-contratacion/">Condiciones</a>
+   290|      <a href="/es/politica-de-cookies/">Cookies</a>
+   291|      <a href="javascript:document.dispatchEvent(new Event('cookienator:show-configurator'))">Configuracion de cookies</a>
+   292|      <a href="/es/accesibilidad/">Accesibilidad</a>
+   293|    </div>
+   294|    <div class="footer-bottom">
+   295|      <p>(c) 2026 Joana Job — <a href="https://www.hooba.com/es/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.35)">Hooba web</a></p>
+   296|    </div>
+   297|  </div>
+   298|</footer>
+   299|<script>
+   300|const langBtn=document.getElementById('langBtn');
+   301|const langDropdown=document.getElementById('langDropdown');
+   302|if(langBtn&&langDropdown){langBtn.addEventListener('click',(e)=>{e.stopPropagation();langDropdown.classList.toggle('show');langBtn.setAttribute('aria-expanded',langDropdown.classList.contains('show'));});document.addEventListener('click',()=>{langDropdown.classList.remove('show');langBtn.setAttribute('aria-expanded','false');});}
+   303|const hamburger=document.getElementById('hamburger');
+   304|const mobileNav=document.getElementById('mobileNav');
+   305|const mobileOverlay=document.getElementById('mobileOverlay');
+   306|function toggleMobile(o){mobileNav.classList.toggle('open',o);mobileOverlay.classList.toggle('show',o);hamburger.classList.toggle('active',o);hamburger.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';}
+   307|if(hamburger){hamburger.addEventListener('click',()=>toggleMobile(!mobileNav.classList.contains('open')));}
+   308|if(mobileOverlay){mobileOverlay.addEventListener('click',()=>toggleMobile(false));}
+   309|if(mobileNav){mobileNav.querySelectorAll('a').forEach(a=>{a.addEventListener('click',()=>toggleMobile(false));});}
+   310|</script>
+   311|</body>
+   312|</html>
+   313|<script>
+   314|const langBtn=document.getElementById('langBtn');
+   315|const langDropdown=document.getElementById('langDropdown');
+   316|if(langBtn&&langDropdown){langBtn.addEventListener('click',(e)=>{e.stopPropagation();langDropdown.classList.toggle('show');langBtn.setAttribute('aria-expanded',langDropdown.classList.contains('show'));});document.addEventListener('click',()=>{langDropdown.classList.remove('show');langBtn.setAttribute('aria-expanded','false');});}
+   317|const hamburger=document.getElementById('hamburger');
+   318|const mobileNav=document.getElementById('mobileNav');
+   319|const mobileOverlay=document.getElementById('mobileOverlay');
+   320|function toggleMobile(o){mobileNav.classList.toggle('open',o);mobileOverlay.classList.toggle('show',o);hamburger.classList.toggle('active',o);hamburger.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';}
+   321|if(hamburger){hamburger.addEventListener('click',()=>toggleMobile(!mobileNav.classList.contains('open')));}
+   322|if(mobileOverlay){mobileOverlay.addEventListener('click',()=>toggleMobile(false));}
+   323|if(mobileNav){mobileNav.querySelectorAll('a').forEach(a=>{a.addEventListener('click',()=>toggleMobile(false));});}
+   324|</script>
