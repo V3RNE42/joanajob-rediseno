@@ -119,24 +119,45 @@ ul{list-style:none}
 .footer-kit img{height:30px;width:auto}
 .footer-bottom{text-align:center;padding:20px 0;font-size:.6875rem;color:rgba(255,255,255,.35);border-top:1px solid rgba(255,255,255,.05)}
 @media(max-width:968px){
-  .pricing-grid{grid-template-columns:1fr;gap:24px;max-width:520px;margin-left:auto;margin-right:auto}
+  .pricing-grid{grid-template-columns:1fr;gap:24px;max-width:500px;margin-left:auto;margin-right:auto}
+  .section{padding:64px 0}
+  .section-alt{padding:64px 0}
   .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+  .page-hero{padding:60px 0 44px}
+  .page-hero h1{font-size:2.25rem}
+  .section-title{font-size:2rem}
+  .section-desc{max-width:100%}
+  .pricing-card-header{padding:28px 24px 0}
+  .pricing-card-body{padding:0 24px 28px}
+  .orientacion-card{flex-direction:column;text-align:center}
 }
 @media(max-width:768px){
   .header-nav{display:none}
   .hamburger{display:flex}
-  .page-hero h1{font-size:2.25rem}
-  .section-title{font-size:1.875rem}
-  .section{padding:60px 0}
-  .section-alt{padding:60px 0}
+  .page-hero h1{font-size:2rem}
+  .page-hero p{max-width:100%}
+  .section-title{font-size:1.75rem}
+  .section{padding:48px 0}
+  .section-alt{padding:48px 0}
   .footer-grid{grid-template-columns:1fr;gap:28px}
-  .orientacion-card{flex-direction:column;text-align:center}
-}
-@media(max-width:480px){
-  .page-hero h1{font-size:1.875rem}
-  .page-hero{padding:60px 0 40px}
   .pricing-card-header{padding:24px 20px 0}
   .pricing-card-body{padding:0 20px 24px}
+  .pricing-card-cta .btn-primary,.pricing-card-cta .btn-secondary{width:100%}
+  .pricing-card.featured::before{right:auto;left:12px}
+}
+@media(max-width:480px){
+  .page-hero h1{font-size:1.625rem}
+  .page-hero{padding:48px 0 32px}
+  .page-hero .page-nav{gap:6px}
+  .page-hero .page-nav a{font-size:.75rem;padding:6px 14px}
+  .section-title{font-size:1.5rem}
+  .section{padding:40px 0}
+  .section-alt{padding:40px 0}
+  .pricing-card-header{padding:20px 16px 0}
+  .pricing-card-body{padding:0 16px 20px}
+  .container{padding:0 16px}
+  .footer-grid{gap:24px}
+  .footer{padding:48px 0 0}
 }
 </style>
 </head>
