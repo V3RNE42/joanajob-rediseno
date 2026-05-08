@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto – JoanaJob | Psicologa Laboral Online</title>
+<meta name="description" content="Contacta con JoanaJob. Resuelve tus dudas por email o reserva una llamada informativa.">
+<link rel="canonical" href="https://www.joanajob.com/es/contacto/">
+<link rel="icon" href="https://docs.gestionaweb.cat/7517/logo2.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;-webkit-font-smoothing:antialiased;color:#1A1A1A;background:#fff;line-height:1.6}
+img{max-width:100%;height:auto;display:block}
+a{color:#23876B;text-decoration:none;transition:color .2s}
+a:hover{color:#145A47}
+ul{list-style:none}
+.skip-link{position:absolute;top:-100%;left:0;z-index:9999;background:#23876B;color:#fff;padding:12px 24px;font-weight:600;transition:top .2s}
+.skip-link:focus{top:0}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.section{padding:88px 0}
+.section-alt{background:linear-gradient(180deg,#F8F6F3 0%,#F2EFEA 100%);padding:88px 0}
+.section-dark{background:linear-gradient(135deg,#0F2E24 0%,#1A4A3A 100%);padding:88px 0;color:#fff}
+.section-label{font-size:.6875rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#23876B;margin-bottom:12px}
+.section-title{font-family:'DM Serif Display',serif;font-size:2.625rem;line-height:1.15;margin-bottom:18px;color:#0F2E24}
+.header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid #E8E6E1}
+.header-inner{display:flex;align-items:center;justify-content:space-between;height:68px}
+.header-logo{display:flex;align-items:center;gap:10px;font-family:'DM Serif Display',serif;font-size:1.2rem;color:#0F2E24}
+.header-logo img{width:34px;height:34px;border-radius:50%;object-fit:cover}
+.header-nav{display:flex;align-items:center;gap:28px}
+.header-nav a{font-size:.8125rem;font-weight:500;color:#4A4A4A;position:relative;padding:4px 0;letter-spacing:.01em}
+.header-nav a:hover,.header-nav a.active{color:#0F2E24}
+.header-nav a.active::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:2px;background:#23876B;border-radius:1px}
+.header-actions{display:flex;align-items:center;gap:14px}
+.header-cart{display:flex;align-items:center;gap:6px;font-size:.8125rem;color:#4A4A4A;padding:8px 10px;border-radius:8px;transition:background .2s}
+.header-cart:hover{background:#F8F6F3;color:#0F2E24}
+.header-cart-count{background:#0F2E24;color:#fff;font-size:.6875rem;font-weight:600;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.header-lang{position:relative}
+.header-lang-btn{display:flex;align-items:center;gap:4px;font-size:.6875rem;font-weight:600;color:#4A4A4A;padding:6px 10px;border-radius:6px;cursor:pointer;border:none;background:none;font-family:'Inter',sans-serif;text-transform:uppercase;letter-spacing:.05em}
+.header-lang-btn:hover{background:#F8F6F3}
+.header-lang-btn .lang-icon{display:inline-block;width:14px;height:14px;border:1.5px solid #4A4A4A;border-radius:50%;position:relative}
+.header-lang-btn .lang-icon::after{content:'';position:absolute;width:8px;height:1.5px;background:#4A4A4A;top:5px;left:2px}
+.header-lang-dropdown{position:absolute;top:100%;right:0;margin-top:4px;background:#fff;border:1px solid #E8E6E1;border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.08);display:none;min-width:120px;overflow:hidden;z-index:50}
+.header-lang-dropdown.show{display:block}
+.header-lang-dropdown a{display:block;padding:10px 16px;font-size:.8125rem;color:#4A4A4A}
+.header-lang-dropdown a:hover{background:#F8F6F3;color:#0F2E24}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;border:none;background:none}
+.hamburger span{width:22px;height:2px;background:#0F2E24;border-radius:2px;transition:all .3s}
+.hamburger.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.hamburger.active span:nth-child(2){opacity:0}
+.hamburger.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.mobile-nav{position:fixed;top:0;right:-100%;width:300px;height:100vh;background:#fff;z-index:200;padding:76px 28px 28px;box-shadow:-4px 0 24px rgba(0,0,0,.08);transition:right .35s ease;overflow-y:auto}
+.mobile-nav.open{right:0}
+.mobile-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.3);z-index:150;opacity:0;pointer-events:none;transition:opacity .35s}
+.mobile-overlay.show{opacity:1;pointer-events:auto}
+.mobile-nav a{display:block;padding:14px 0;font-size:1rem;font-weight:500;color:#1A1A1A;border-bottom:1px solid #f0f0f0}
+.mobile-nav a:hover{color:#23876B}
+.mobile-nav .mobile-lang{display:flex;gap:12px;margin-top:24px;padding-top:24px;border-top:1px solid #E8E6E1}
+.mobile-nav .mobile-lang a{font-size:.8125rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;border:none;padding:8px 0}
+.mobile-nav .mobile-lang a.active{color:#23876B}
+.page-hero{background:linear-gradient(135deg,#0F2E24 0%,#1A4A3A 100%);padding:80px 0 60px;color:#fff}
+.page-hero h1{font-family:'DM Serif Display',serif;font-size:3rem;line-height:1.1;margin-bottom:12px}
+.page-hero p{font-size:1.0625rem;color:rgba(255,255,255,.7);max-width:540px}
+.page-nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:28px}
+.page-nav a{font-size:.8125rem;font-weight:500;color:rgba(255,255,255,.65);padding:8px 18px;border:1px solid rgba(255,255,255,.15);border-radius:20px;transition:all .2s}
+.page-nav a:hover{color:#fff;border-color:#23876B;background:rgba(35,135,107,.15)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-top:44px;align-items:start}
+.contact-card{background:#fff;border:1px solid #E8E6E1;border-radius:16px;padding:36px 32px;transition:all .3s}
+.contact-card:hover{border-color:#23876B;box-shadow:0 8px 24px rgba(0,0,0,.04)}
+.contact-card h2{font-family:'DM Serif Display',serif;font-size:1.375rem;color:#0F2E24;margin-bottom:16px}
+.contact-card p{font-size:.875rem;color:#4A4A4A;line-height:1.7;margin-bottom:20px}
+.btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:6px;background:linear-gradient(135deg,#23876B 0%,#2D9E7E 100%);color:#fff;font-weight:600;font-size:.875rem;padding:14px 28px;border-radius:10px;transition:all .25s;font-family:'Inter',sans-serif;border:none;cursor:pointer;box-shadow:0 4px 16px rgba(35,135,107,.2)}
+.btn-primary:hover{background:linear-gradient(135deg,#1A6E56 0%,#23876B 100%);transform:translateY(-1px);box-shadow:0 6px 20px rgba(35,135,107,.3)}
+.btn-outline{display:inline-flex;align-items:center;justify-content:center;gap:6px;font-size:.8125rem;font-weight:500;color:#23876B;border:1px solid #D8D6D1;padding:12px 24px;border-radius:10px;transition:all .2s;font-family:'Inter',sans-serif;background:none;cursor:pointer}
+.btn-outline:hover{border-color:#23876B;background:#F8F6F3}
+.form-section{max-width:720px;margin:48px auto 0}
+.form-section h2{font-family:'DM Serif Display',serif;font-size:1.5rem;color:#0F2E24;margin-bottom:24px;text-align:center}
+.form-group{margin-bottom:20px}
+.form-group label{display:block;font-size:.8125rem;font-weight:500;color:#4A4A4A;margin-bottom:6px}
+.form-group input,.form-group textarea{width:100%;padding:12px 16px;border:1px solid #D8D6D1;border-radius:10px;font-size:.875rem;font-family:'Inter',sans-serif;transition:border-color .2s;background:#fff;color:#1A1A1A}
+.form-group input:focus,.form-group textarea:focus{outline:none;border-color:#23876B;box-shadow:0 0 0 3px rgba(35,135,107,.1)}
+.form-group textarea{resize:vertical;min-height:120px}
+.form-check{margin-bottom:20px}
+.form-check label{font-size:.8125rem;color:#4A4A4A;display:flex;align-items:flex-start;gap:10px;cursor:pointer}
+.form-check input[type="checkbox"]{margin-top:3px;width:16px;height:16px;accent-color:#23876B}
+.privacy-box{background:#F8F6F3;border:1px solid #E8E6E1;border-radius:12px;padding:20px 24px;margin-bottom:24px}
+.privacy-box p{font-size:.75rem;color:#6B6B6B;line-height:1.6;margin-bottom:6px}
+.privacy-box p:last-child{margin-bottom:0}
+.privacy-box strong{color:#4A4A4A}
+.footer{padding:72px 0 0;background:linear-gradient(180deg,#0F2E24 0%,#0A1F18 100%);color:#fff}
+.footer-grid{display:grid;grid-template-columns:2fr 1.5fr 1.5fr;gap:44px;padding-bottom:44px;border-bottom:1px solid rgba(255,255,255,.08)}
+.footer-brand p{font-size:.8125rem;color:rgba(255,255,255,.55);line-height:1.7;margin-top:14px;max-width:320px}
+.footer-brand .footer-logo{font-family:'DM Serif Display',serif;font-size:1.2rem;color:#fff}
+.footer h4{font-size:.6875rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:#3DBB96;margin-bottom:18px}
+.footer-links{display:flex;flex-direction:column;gap:10px}
+.footer-links a{font-size:.8125rem;color:rgba(255,255,255,.65);transition:color .2s}
+.footer-links a:hover{color:#fff}
+.footer-social{display:flex;gap:10px;margin-top:8px}
+.footer-social a{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:all .2s;font-size:.6875rem;color:rgba(255,255,255,.65);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.footer-social a:hover{background:#23876B;color:#fff}
+.footer-legal{padding:20px 0;display:flex;flex-wrap:wrap;gap:6px 22px;justify-content:center;font-size:.75rem}
+.footer-legal a{color:rgba(255,255,255,.45)}
+.footer-legal a:hover{color:#fff}
+.footer-kit{display:flex;gap:14px;align-items:center;margin-top:8px}
+.footer-kit img{height:30px;width:auto}
+.footer-bottom{text-align:center;padding:20px 0;font-size:.6875rem;color:rgba(255,255,255,.35);border-top:1px solid rgba(255,255,255,.05)}
+@media(max-width:968px){
+  .contact-grid{grid-template-columns:1fr;gap:24px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+}
+@media(max-width:768px){
+  .header-nav{display:none}
+  .hamburger{display:flex}
+  .page-hero h1{font-size:2.25rem}
+  .footer-grid{grid-template-columns:1fr;gap:28px}
+}
+@media(max-width:480px){
+  .page-hero h1{font-size:1.875rem}
+  .contact-card{padding:24px 20px}
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Saltar al contenido principal</a>
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<nav class="mobile-nav" id="mobileNav" aria-label="Navegacion movil">
+  <a href="/es/">Inicio</a>
+  <a href="/es/esencia/">Esencia</a>
+  <a href="/es/servicios/">Servicios</a>
+  <a href="/es/contacto/">Contacto</a>
+  <a href="/es/recursos/">Recursos</a>
+  <a href="/es/proceso-de-compra/step1/">Mi cesta</a>
+  <a href="/es/account/login/">Mi cuenta</a>
+  <div class="mobile-lang">
+    <a href="/es/" class="active" hreflang="es">ES</a>
+    <a href="/ca/" hreflang="ca">CA</a>
+    <a href="/en/" hreflang="en">EN</a>
+  </div>
+</nav>
+<header class="header" role="banner">
+  <div class="container header-inner">
+    <a href="/es/" class="header-logo" aria-label="Joana Job — Inicio">
+      <img src="https://images.gestionaweb.cat/7517/pqimg-240-240/baixa-3-2.jpg" alt="" width="34" height="34"> Joana Job
+    </a>
+    <nav class="header-nav" aria-label="Navegacion principal">
+      <a href="/es/esencia/">Esencia</a>
+      <a href="/es/servicios/">Servicios</a>
+      <a href="/es/contacto/" class="active" aria-current="page">Contacto</a>
+      <a href="/es/recursos/">Recursos</a>
+    </nav>
+    <div class="header-actions">
+      <div class="header-lang">
+        <button class="header-lang-btn" id="langBtn" aria-expanded="false" aria-haspopup="true" aria-label="Seleccionar idioma">
+          <span class="lang-icon" aria-hidden="true"></span> ES
+        </button>
+        <div class="header-lang-dropdown" id="langDropdown" role="menu">
+          <a href="/es/" role="menuitem" hreflang="es"><strong>ES</strong> — Espanol</a>
+          <a href="/ca/" role="menuitem" hreflang="ca">CA — Catala</a>
+          <a href="/en/" role="menuitem" hreflang="en">EN — English</a>
+        </div>
+      </div>
+      <a href="/es/proceso-de-compra/step1/" class="header-cart" aria-label="Mi cesta">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        <span class="header-cart-count" aria-hidden="true">0</span>
+        <span class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0">Mi cesta, 0 productos</span>
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu de navegacion" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <h1>Contacta</h1>
+    <p>Estamos aqui para resolver tus dudas. Elige el canal que prefieras.</p>
+    <nav class="page-nav" aria-label="Navegacion rapida">
+      <a href="#orientacion">Sesion de orientacion</a>
+      <a href="#llamada">Llamada informativa</a>
+    </nav>
+  </div>
+</section>
+<section class="section" id="comunidad">
+  <div class="container" style="text-align:center">
+    <p class="section-label" style="justify-content:center;display:flex">Comunidad</p>
+    <h2 class="section-title" style="text-align:center;font-size:1.75rem">Unete a nuestra comunidad</h2>
+    <p style="color:#6B6B6B;max-width:520px;margin:0 auto 32px;font-size:.9375rem">Siguenos en Instagram y LinkedIn para contenido sobre psicologia laboral y desarrollo profesional.</p>
+    <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+      <a href="https://www.instagram.com/joanajob.es?igsh=MXVqNGU0MDFpcGxkaw==" target="_blank" rel="nofollow noopener" class="btn-outline">Instagram</a>
+      <a href="https://www.linkedin.com/in/joana-mart%C3%ADnez-pardell/" target="_blank" rel="nofollow noopener" class="btn-outline">LinkedIn</a>
+    </div>
+  </div>
+</section>
+<section class="section-alt" id="orientacion">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h2>No queremos que tus dudas queden sin responder</h2>
+        <p>Reserva una llamada de orientacion sin compromiso. Analizaremos tu situacion y te diremos como podemos ayudarte.</p>
+        <a href="https://calendar.google.com/calendar/u/0/appointments/AcZssZ0eFx3oKzJ0E7Ke6MsrUKRqMrmT5W_bdr6Ub6c=" target="_blank" rel="noopener" class="btn-primary">Reserva tu llamada</a>
+      </div>
+      <div class="contact-card">
+        <h2>Contacto directo</h2>
+        <p>Tambien puedes escribirnos directamente por email a <a href="mailto:joana@martinez.cat" style="font-weight:500">joana@martinez.cat</a> o rellenar el formulario y te responderemos a la mayor brevedad.</p>
+        <a href="mailto:joana@martinez.cat" class="btn-outline">Enviar email</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section" id="formulario">
+  <div class="container">
+    <div class="form-section">
+      <h2>Resuelve tus dudas por email</h2>
+      <form action="/es/contacto/" method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre y apellidos *</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Numero de telefono</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electronico *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje *</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <div class="form-check">
+          <label>
+            <input type="checkbox" name="privacidad" required>
+            <span>He leido y acepto la <a href="/es/politica-de-privacidad/">politica de privacidad</a>. *</span>
+          </label>
+        </div>
+        <div class="privacy-box">
+          <p><strong>Responsable del tratamiento:</strong> Joana Martinez Pardell.</p>
+          <p><strong>Finalidad:</strong> Ofrecer, prestar y facturar nuestros servicios y productos.</p>
+          <p><strong>Legitimacion:</strong> Consentimiento del interesado.</p>
+          <p><strong>Destinatarios:</strong> Los datos no se cederan a terceros, a menos que lo exija una ley o sea necesario para cumplir con la finalidad del tratamiento.</p>
+          <p><strong>Derechos:</strong> Acceder, rectificar y suprimir datos, asi como el resto que se explican en la <a href="/es/politica-de-privacidad/">politica de privacidad</a>.</p>
+        </div>
+        <button type="submit" class="btn-primary" style="width:100%">Enviar</button>
+      </form>
+    </div>
+  </div>
+</section>
+<section class="section-alt" style="text-align:center;padding:64px 0">
+  <div class="container">
+    <h2 style="font-family:'DM Serif Display',serif;font-size:1.75rem;color:#0F2E24;margin-bottom:12px">Descubre todas tus opciones</h2>
+    <p style="color:#6B6B6B;margin-bottom:24px;font-size:.9375rem">Conoce nuestros programas de consultoria y encuentra el que mejor se adapta a ti.</p>
+    <a href="/es/servicios/" class="btn-primary">Descubre todas tus opciones</a>
+  </div>
+</section>
+</main>
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <img src="https://images.gestionaweb.cat/7517/pqimg-640-640/captura-de-pantalla-2025-10-20-a-las-9-25-19.png" alt="Joana Job" style="width:38px;height:38px;border-radius:50%;display:inline-block;vertical-align:middle;margin-right:6px"> Joana Job
+        </div>
+        <p>Psicologia Laboral Aplicada y estrategia profesional basada en datos del mercado laboral actual.</p>
+        <p style="margin-top:10px"><a href="mailto:joana@martinez.cat" style="color:rgba(255,255,255,.6);font-size:.8125rem">joana@martinez.cat</a></p>
+      </div>
+      <div>
+        <h4>Enlaces</h4>
+        <div class="footer-links">
+          <a href="/es/esencia/">Esencia</a>
+          <a href="/es/servicios/">Servicios</a>
+          <a href="/es/contacto/">Contacto</a>
+          <a href="/es/recursos/">Recursos</a>
+          <a href="/es/mapa-web/">Mapa web</a>
+        </div>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <div class="footer-links">
+          <a href="/es/aviso-legal/">Aviso legal</a>
+          <a href="/es/politica-de-privacidad/">Politica de privacidad</a>
+          <a href="/es/condiciones-generales-y-de-contratacion/">Condiciones generales</a>
+          <a href="/es/politica-de-cookies/">Politica de cookies</a>
+          <a href="/es/accesibilidad/">Accesibilidad</a>
+        </div>
+        <div class="footer-social" style="margin-top:18px">
+          <a href="https://www.instagram.com/joanajob.es?igsh=MXVqNGU0MDFpcGxkaw==" target="_blank" rel="nofollow noopener" aria-label="Instagram Joana Job">IG</a>
+          <a href="https://www.linkedin.com/in/joana-mart%C3%ADnez-pardell/" target="_blank" rel="nofollow noopener" aria-label="LinkedIn Joana Job">LI</a>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:20px;align-items:center;padding:28px 0;border-bottom:1px solid rgba(255,255,255,.05);justify-content:space-between">
+      <p style="font-size:.75rem;color:rgba(255,255,255,.45);max-width:380px">En JoanaJob donamos el 0,5 % de todos los beneficios para ayudar a eliminar el CO2 de la atmosfera.</p>
+      <div class="footer-kit">
+        <img src="https://docs.gestionaweb.cat/0000/kit-digital/kd-ue-nextgeneration-white-negative.svg" alt="Financiado por la Union Europea NextGenerationEU" loading="lazy">
+        <img src="https://docs.gestionaweb.cat/0000/kit-digital/kd-govern-white-negative.svg" alt="Gobierno de Espana" loading="lazy">
+        <img src="https://docs.gestionaweb.cat/0000/kit-digital/kd-logo-plan-white-negative.svg" alt="Plan de Recuperacion, Transformacion y Resiliencia" loading="lazy">
+      </div>
+    </div>
+    <div class="footer-legal">
+      <a href="/es/aviso-legal/">Aviso legal</a>
+      <a href="/es/politica-de-privacidad/">Privacidad</a>
+      <a href="/es/condiciones-generales-y-de-contratacion/">Condiciones</a>
+      <a href="/es/politica-de-cookies/">Cookies</a>
+      <a href="javascript:document.dispatchEvent(new Event('cookienator:show-configurator'))">Configuracion de cookies</a>
+      <a href="/es/accesibilidad/">Accesibilidad</a>
+    </div>
+    <div class="footer-bottom">
+      <p>(c) 2026 Joana Job — <a href="https://www.hooba.com/es/" target="_blank" rel="noopener" style="color:rgba(255,255,255,.35)">Hooba web</a></p>
+    </div>
+  </div>
+</footer>
+<script>
+const langBtn=document.getElementById('langBtn');
+const langDropdown=document.getElementById('langDropdown');
+if(langBtn&&langDropdown){langBtn.addEventListener('click',(e)=>{e.stopPropagation();langDropdown.classList.toggle('show');langBtn.setAttribute('aria-expanded',langDropdown.classList.contains('show'));});document.addEventListener('click',()=>{langDropdown.classList.remove('show');langBtn.setAttribute('aria-expanded','false');});}
+const hamburger=document.getElementById('hamburger');
+const mobileNav=document.getElementById('mobileNav');
+const mobileOverlay=document.getElementById('mobileOverlay');
+function toggleMobile(o){mobileNav.classList.toggle('open',o);mobileOverlay.classList.toggle('show',o);hamburger.classList.toggle('active',o);hamburger.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':'';}
+if(hamburger){hamburger.addEventListener('click',()=>toggleMobile(!mobileNav.classList.contains('open')));}
+if(mobileOverlay){mobileOverlay.addEventListener('click',()=>toggleMobile(false));}
+if(mobileNav){mobileNav.querySelectorAll('a').forEach(a=>{a.addEventListener('click',()=>toggleMobile(false));});}
+</script>
+</body>
+</html>
